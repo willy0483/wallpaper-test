@@ -95,7 +95,7 @@
 
   .img-wrapper:nth-child(2) img {
     object-fit: cover;
-    object-position: 80%;
+    object-position: 85%;
   }
 
   .img-wrapper:nth-child(3) img {
@@ -132,7 +132,7 @@
 .legion-logo {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
 }
@@ -160,7 +160,7 @@
 .king-logo {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
 }
@@ -188,7 +188,7 @@
 .panda-logo {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
 }
@@ -216,7 +216,7 @@
 .dragon-logo {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
 }
