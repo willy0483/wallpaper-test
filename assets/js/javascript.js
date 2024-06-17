@@ -7,7 +7,7 @@ const image3 = document.getElementById("image3");
 const image4 = document.getElementById("image4");
 const container = document.getElementById("container");
 
-// hover 
+// hover
 img.forEach((e) => {
   e.addEventListener("mouseover", (e) => {
     e.target.style.transform = "scale(1.3)";
