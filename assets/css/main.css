@@ -394,8 +394,27 @@ iframe {
 
 /* #endregion */
 
-#region strat
-
+/* #region strat */
+.start {
+  display: block;
+  position: relative;
+  background-color: #0a1020;
+  padding: 2rem;
+}
+.start hgroup {
+  padding: 2.2rem;
+  box-shadow: inset 1px 2px 6px #abdafd7d;
+  border-radius: 8px;
+}
+.start hgroup h3 {
+  font-size: 1.5rem;
+  text-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
+  color: #2c86b9;
+}
+.start hgroup h4 {
+  color: #eeeeeea8;
+}
+/* #endregion */
 
 /* #region realm */
 .realm {
