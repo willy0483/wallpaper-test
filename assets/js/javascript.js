@@ -130,7 +130,7 @@ srcollDown.addEventListener("click", (e) => {
     window.scrollY || document.documentElement.scrollTop;
 
   if (currentScrollPosition === 0) {
-    window.scrollTo({ top: 1000, behavior: "smooth" });
+    window.scrollTo({ top: 360, behavior: "smooth" });
   } else {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
