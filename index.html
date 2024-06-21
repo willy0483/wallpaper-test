@@ -6,9 +6,56 @@
     <title>World of Warcraft</title>
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="assets/js/javascript.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/25ccdd850b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
+    <!-- nav-main -->
+    <nav class="nav-main">
+      <div class="signup">
+        <img src="assets/images/Uploads/01c228e2.png" alt="#" />
+        <a href="#" id="signUp">SIGNUP</a>
+      </div>
+    </nav>
+    <!-- SIGNUP -->
+    <section id="formContainerSignUp" class="form-container">
+      <form>
+        <fieldset>
+          <a href="#" id="closeSignUp">&#x2715;</a>
+          <label id="labelUsernameSignUp" for="username">Username</label>
+          <input
+            type="text"
+            id="usernameSignUp"
+            name="txt.username"
+            placeholder="Dit username"
+            required
+            autocomplete="username"
+          />
+          <label id="labelPasswordSignUp" for="password">Adgangskode</label>
+          <input
+            type="password"
+            id="passwordSignUp"
+            name="txt.passwordSignUp"
+            required
+            autocomplete="current-passwordSignUp"
+          />
+          <label id="labelEmailSignUp" for="email">Email</label>
+          <input
+            type="email"
+            id="emailSignUp"
+            name="txt.emailSignUp"
+            placeholder="@Email"
+            required
+            autocomplete="emailSignUp"
+          />
+          <button id="submitButtonSignUp" type="submit">Tilmeld</button>
+        </fieldset>
+      </form>
+    </section>
+
     <div class="container">
       <!-- image 1 -->
       <div class="img-wrapper">
@@ -197,10 +244,15 @@
       </section>
 
       <section class="start">
-        <hgroup>
-          <h3>Start playing now!</h3>
-          <h4>Jump right into game</h4>
-        </hgroup>
+        <div class="outline">
+          <hgroup>
+            <h3>Start playing now!</h3>
+            <h4>Jump right into game</h4>
+          </hgroup>
+          <div>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </div>
+        </div>
       </section>
 
       <section class="realm">
